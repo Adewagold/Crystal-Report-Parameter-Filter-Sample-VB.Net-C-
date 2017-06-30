@@ -40,6 +40,7 @@ Namespace My
         Public Shared ReadOnly Property [Default]() As MySettings
             Get
 
+    
 #If _MyType = "WindowsForms" Then
                    If Not addedHandler Then
                         SyncLock addedHandlerLockObject
